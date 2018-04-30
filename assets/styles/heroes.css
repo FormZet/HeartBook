@@ -1,0 +1,103 @@
+@font-face{
+	font-family: link;
+	src: url(../fonts/Stylish.ttf);
+}
+body, h1, h2, h3, a, p{
+	margin: 0;
+	font-family: "Trebuchet MS";
+}
+
+body {
+	height: 100vh;
+	position: relative;
+	background-image: url('../img/back1.jpg');
+	background-size: cover;
+	position: relative;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+}
+header{
+	width: 100%;
+	background-color:#a83296;
+	height: 150px;
+}
+
+header a{ 
+	font-family: link;
+	margin: 90px;
+	font-size: 49px;
+	font-weight: 900;
+	text-decoration: none;
+}
+.links{
+	text-align: center;
+	padding-top: 50px;
+	margin-left: 220px;
+}
+.title{
+position: absolute;
+width: 25%;
+left: 10px;
+top: -35px;
+}
+.logo{
+	position: absolute;
+	width: 10%;
+	right: -00px;
+}
+
+.container{
+	width: 1024px;
+	margin: 0 auto;
+}
+.heroes-list{
+	padding-top: 60px;
+}
+.heroes-list img{
+	margin-left: 20px;
+	width: 8.5%;
+}
+.s-heroes img:hover{
+	transform: scale(1.2);
+	transition: 0.5s;
+}
+.hero{
+	display: flex;
+	justify-content: flex-start;
+		align-items: center;
+}
+.s-lore img{
+	margin: 20px 290px;
+}
+.s-lore p{
+	font-size: 25px;
+	width: 450px;
+	text-align:left;
+
+}
+.lorekek{
+	position: absolute;
+	z-index: -20;
+	left: 400px;
+}
+.pic2{
+	top: 695px;
+}
+.pic1{
+	top: 275px;
+}
+.heroes-list img.-is-active {
+	border: 10px dashed orange;
+}
+.heru{
+	width: 12%;
+}
+p{
+	color: white;
+}
