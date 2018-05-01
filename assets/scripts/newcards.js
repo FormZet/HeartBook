@@ -1,132 +1,133 @@
 $(document).ready(function() {
-	let currentHeroes = [];
+	let cards = $('.cards');
+	let currentCards = [];
 	const herocards = [
 
 	{
 		class:'Warrior',
 		cards:[
-		'assets/img/heroes/warrior_card.png',
-		'assets/img/heroes/warrior_card2.png',
-		'assets/img/heroes/warrior_card3.png',
-		'assets/img/heroes/warrior_card.png',
-		'assets/img/heroes/warrior_card.png',
-		'assets/img/heroes/warrior_card.png',
-		'assets/img/heroes/warrior_card.png',
-		'assets/img/heroes/warrior_card.png',
-		'assets/img/heroes/warrior_card.png',
-		'assets/img/heroes/warrior_card.png'
+		'assets/img/Cards/warrior_card.png',
+		'assets/img/Cards/warrior_card2.png',
+		'assets/img/Cards/warrior_card3.png',
+		'assets/img/Cards/warrior_card.png',
+		'assets/img/Cards/warrior_card.png',
+		'assets/img/Cards/warrior_card.png',
+		'assets/img/Cards/warrior_card.png',
+		'assets/img/Cards/warrior_card.png',
+		'assets/img/Cards/warrior_card.png',
+		'assets/img/Cards/warrior_card.png'
 ]
 	},
 	{
 		class:'Paladin',
 		cards:[
-	'assets/img/heroes/paladin_card.png',
-	'assets/img/heroes/paladin_card2.png',
-	'assets/img/heroes/paladin_card3.png',
-	'assets/img/heroes/paladin_card.png',
-	'assets/img/heroes/paladin_card.png',
-	'assets/img/heroes/paladin_card.png',
-	'assets/img/heroes/paladin_card.png',
-	'assets/img/heroes/paladin_card.png',
-	'assets/img/heroes/paladin_card.png',
-		'assets/img/heroes/paladin_card.png'
+	'assets/img/Cards/paladin_card.png',
+	'assets/img/Cards/paladin_card2.png',
+	'assets/img/Cards/paladin_card3.png',
+	'assets/img/Cards/paladin_card4.png',
+	'assets/img/Cards/paladin_card5.png',
+	'assets/img/Cards/paladin_card6.png',
+	'assets/img/Cards/paladin_card7.png',
+	'assets/img/Cards/paladin_card8.png',
+	'assets/img/Cards/paladin_card9.png',
+		'assets/img/Cards/paladin_card10.png'
 ]	},
 	{
 		class:'Warlock',
 		cards:[
-		'assets/img/heroes/paladin_card.png',
-		'assets/img/heroes/paladin_card2.png',
-		'assets/img/heroes/paladin_card3.png',
-		'assets/img/heroes/paladin_card.png',
-		'assets/img/heroes/paladin_card.png',
-		'assets/img/heroes/paladin_card.png',
-		'assets/img/heroes/paladin_card.png',
-		'assets/img/heroes/paladin_card.png',
-		'assets/img/heroes/paladin_card.png',
-		'assets/img/heroes/paladin_card.png']
+		'assets/img/Cards/warlock_card.png',
+		'assets/img/Cards/warlock_card2.png',
+		'assets/img/Cards/warlock_card3.png',
+		'assets/img/Cards/warlock_card4.png',
+		'assets/img/Cards/warlock_card5.png',
+		'assets/img/Cards/warlock_card6.png',
+		'assets/img/Cards/warlock_card7.png',
+		'assets/img/Cards/warlock_card8.png',
+		'assets/img/Cards/warlock_card9.png',
+		'assets/img/Cards/warlock_card10.png']
 	},
 	{
 		class:'Shaman',
 		cards:[
-		'assets/img/heroes/paladin_card.png',
-		'assets/img/heroes/paladin_card2.png',
-		'assets/img/heroes/paladin_card3.png',
-		'assets/img/heroes/paladin_card.png',
-		'assets/img/heroes/paladin_card.png',
-		'assets/img/heroes/paladin_card.png',
-		'assets/img/heroes/paladin_card.png',
-		'assets/img/heroes/paladin_card.png',
-		'assets/img/heroes/paladin_card.png',
-		'assets/img/heroes/paladin_card.png'
+		'assets/img/Cards/shaman_card.png',
+		'assets/img/Cards/shaman_card2.png',
+		'assets/img/Cards/shaman_card3.png',
+		'assets/img/Cards/shaman_card4.png',
+		'assets/img/Cards/shaman_card5.png',
+		'assets/img/Cards/shaman_card6.png',
+		'assets/img/Cards/shaman_card7.png',
+		'assets/img/Cards/shaman_card8.png',
+		'assets/img/Cards/shaman_card9.png',
+		'assets/img/Cards/shaman_card10.png'
 ]	},
 	{
 		class:'Hunter',
 		cards:[
-	'assets/img/heroes/paladin_card.png',
-	'assets/img/heroes/paladin_card2.png',
-	'assets/img/heroes/paladin_card3.png',
-	'assets/img/heroes/paladin_card.png',
-	'assets/img/heroes/paladin_card.png',
-	'assets/img/heroes/paladin_card.png',
-	'assets/img/heroes/paladin_card.png',
-	'assets/img/heroes/paladin_card.png',
-	'assets/img/heroes/paladin_card.png',
-		'assets/img/heroes/paladin_card.png'
+	'assets/img/Cards/hunter_card.png',
+	'assets/img/Cards/hunter_card2.png',
+	'assets/img/Cards/hunter_card3.png',
+	'assets/img/Cards/hunter_card4.png',
+	'assets/img/Cards/hunter_card5.png',
+	'assets/img/Cards/hunter_card6.png',
+	'assets/img/Cards/hunter_card7.png',
+	'assets/img/Cards/hunter_card8.png',
+	'assets/img/Cards/hunter_card9.png',
+		'assets/img/Cards/hunter_card10.png'
 ]	},
 	{
 		class:'Mage',
 		cards:[
-	'assets/img/heroes/paladin_card.png',
-	'assets/img/heroes/paladin_card2.png',
-	'assets/img/heroes/paladin_card3.png',
-	'assets/img/heroes/paladin_card.png',
-	'assets/img/heroes/paladin_card.png',
-	'assets/img/heroes/paladin_card.png',
-	'assets/img/heroes/paladin_card.png',
-	'assets/img/heroes/paladin_card.png',
-	'assets/img/heroes/paladin_card.png',
-		'assets/img/heroes/paladin_card.png'
+	'assets/img/Cards/mage_card.png',
+	'assets/img/Cards/mage_card2.png',
+	'assets/img/Cards/mage_card3.png',
+	'assets/img/Cards/mage_card4.png',
+	'assets/img/Cards/mage_card5.png',
+	'assets/img/Cards/mage_card6.png',
+	'assets/img/Cards/mage_card7.png',
+	'assets/img/Cards/mage_card8.png',
+	'assets/img/Cards/mage_card9.png',
+		'assets/img/Cards/mage_card10.png'
 ]	},
 	{
 		class:'Rogue',
 		cards:[
-		'assets/img/heroes/paladin_card.png',
-		'assets/img/heroes/paladin_card2.png',
-		'assets/img/heroes/paladin_card3.png',
-		'assets/img/heroes/paladin_card.png',
-		'assets/img/heroes/paladin_card.png',
-		'assets/img/heroes/paladin_card.png',
-		'assets/img/heroes/paladin_card.png',
-		'assets/img/heroes/paladin_card.png',
-		'assets/img/heroes/paladin_card.png',
-		'assets/img/heroes/paladin_card.png'
+		'assets/img/Cards/rogues_card.png',
+		'assets/img/Cards/rogues_card2.png',
+		'assets/img/Cards/rogues_card3.png',
+		'assets/img/Cards/rogues_card4.png',
+		'assets/img/Cards/rogues_card5.png',
+		'assets/img/Cards/rogues_card6.png',
+		'assets/img/Cards/rogues_card7.png',
+		'assets/img/Cards/rogues_card8.png',
+		'assets/img/Cards/rogues_card9.png',
+		'assets/img/Cards/rogues_card10.png'
 ]	},
 	{
 		class:'Druid',
 		cards:[
-	'assets/img/heroes/paladin_card.png',
-	'assets/img/heroes/paladin_card2.png',
-	'assets/img/heroes/paladin_card3.png',
-	'assets/img/heroes/paladin_card.png',
-	'assets/img/heroes/paladin_card.png',
-	'assets/img/heroes/paladin_card.png',
-	'assets/img/heroes/paladin_card.png',
-	'assets/img/heroes/paladin_card.png',
-	'assets/img/heroes/paladin_card.png',
-		'assets/img/heroes/paladin_card.png'
+	'assets/img/Cards/druid_card.png',
+	'assets/img/Cards/druid_card2.png',
+	'assets/img/Cards/druid_card3.png',
+	'assets/img/Cards/druid_card4.png',
+	'assets/img/Cards/druid_card5.png',
+	'assets/img/Cards/druid_card6.png',
+	'assets/img/Cards/druid_card7.png',
+	'assets/img/Cards/druid_card8.png',
+	'assets/img/Cards/druid_card9.png',
+		'assets/img/Cards/druid_card10.png'
 ]	},{
 		class:'Priest',
 		cards:[
-		'assets/img/heroes/paladin_card.png',
-		'assets/img/heroes/paladin_card2.png',
-		'assets/img/heroes/paladin_card3.png',
-		'assets/img/heroes/paladin_card.png',
-		'assets/img/heroes/paladin_card.png',
-		'assets/img/heroes/paladin_card.png',
-		'assets/img/heroes/paladin_card.png',
-		'assets/img/heroes/paladin_card.png',
-		'assets/img/heroes/paladin_card.png',
-		'assets/img/heroes/paladin_card.png'
+		'assets/img/Cards/priest_card.png',
+		'assets/img/Cards/priest_card2.png',
+		'assets/img/Cards/priest_card3.png',
+		'assets/img/Cards/priest_card4.png',
+		'assets/img/Cards/priest_card5.png',
+		'assets/img/Cards/priest_card6.png',
+		'assets/img/Cards/priest_card7.png',
+		'assets/img/Cards/priest_card8.png',
+		'assets/img/Cards/priest_card9.png',
+		'assets/img/Cards/priest_card10.png'
 		]
 	}
 	]
@@ -152,6 +153,22 @@ $(document).ready(function() {
 		$('.heroes-list img').removeClass('-is-active');
 		$(this).toggleClass('-is-active');
 
-	});
+		herocards.find(function(elem, index, arr) {
+			
+			if (elem.class === currentClass) {
+				currentCards.push(elem);
+			}
+		});
 
-});
+		cards.html('');
+
+		for (let i = 0; i < currentCards.length; i++) {
+			cards.append('<div class="cart"><img class="imgcard" src="' + herocards[i].cards + '"></div>');
+		}
+		currentCards = [];
+
+		
+		
+	})
+
+	});
