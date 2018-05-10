@@ -18,7 +18,7 @@ $(document).ready(function() {
 		'assets/img/Cards/warrior_card10.png'
 ]
 	},
-	{
+{
 		class:'Paladin',
 		cards:[
 	'assets/img/Cards/paladin_card.png',
@@ -30,9 +30,9 @@ $(document).ready(function() {
 	'assets/img/Cards/paladin_card7.png',
 	'assets/img/Cards/paladin_card8.png',
 	'assets/img/Cards/paladin_card9.png',
-		'assets/img/Cards/paladin_card10.png'
+	'assets/img/Cards/paladin_card10.png'
 ]	},
-	{
+{
 		class:'Warlock',
 		cards:[
 		'assets/img/Cards/warlock_card.png',
@@ -46,7 +46,7 @@ $(document).ready(function() {
 		'assets/img/Cards/warlock_card9.png',
 		'assets/img/Cards/warlock_card10.png']
 	},
-	{
+{
 		class:'Shaman',
 		cards:[
 		'assets/img/Cards/shaman_card.png',
@@ -60,7 +60,7 @@ $(document).ready(function() {
 		'assets/img/Cards/shaman_card9.png',
 		'assets/img/Cards/shaman_card10.png'
 ]	},
-	{
+{
 		class:'Hunter',
 		cards:[
 	'assets/img/Cards/hunter_card.png',
@@ -72,9 +72,9 @@ $(document).ready(function() {
 	'assets/img/Cards/hunter_card7.png',
 	'assets/img/Cards/hunter_card8.png',
 	'assets/img/Cards/hunter_card9.png',
-		'assets/img/Cards/hunter_card10.png'
+	'assets/img/Cards/hunter_card10.png'
 ]	},
-	{
+{
 		class:'Mage',
 		cards:[
 	'assets/img/Cards/mage_card.png',
@@ -86,9 +86,9 @@ $(document).ready(function() {
 	'assets/img/Cards/mage_card7.png',
 	'assets/img/Cards/mage_card8.png',
 	'assets/img/Cards/mage_card9.png',
-		'assets/img/Cards/mage_card10.png'
+	'assets/img/Cards/mage_card10.png'
 ]	},
-	{
+{
 		class:'Rogue',
 		cards:[
 		'assets/img/Cards/rogues_card.png',
@@ -101,8 +101,8 @@ $(document).ready(function() {
 		'assets/img/Cards/rogues_card8.png',
 		'assets/img/Cards/rogues_card9.png',
 		'assets/img/Cards/rogues_card10.png'
-]	},
-	{
+]},
+{
 		class:'Druid',
 		cards:[
 	'assets/img/Cards/druid_card.png',
@@ -114,8 +114,9 @@ $(document).ready(function() {
 	'assets/img/Cards/druid_card7.png',
 	'assets/img/Cards/druid_card8.png',
 	'assets/img/Cards/druid_card9.png',
-		'assets/img/Cards/druid_card10.png'
-]	},{
+	'assets/img/Cards/druid_card10.png'
+]},
+{
 		class:'Priest',
 		cards:[
 		'assets/img/Cards/priest_card.png',
@@ -156,14 +157,14 @@ $(document).ready(function() {
 		herocards.find(function(elem, index, arr) {
 			
 			if (elem.class === currentClass) {
-				currentCards.push(elem);
+				currentCards = elem.cards;
 			}
 		});
 
 		cards.html('');
 
 		for (let i = 0; i < currentCards.length; i++) {
-			cards.append('<div class="cart"><img class="imgcard" src="' + currentCards[i].cards + '"></div>');
+			cards.append('<div class="cart"><img class="imgcard" src="' + currentCards[i]  + '"></div>');
 		}
 		currentCards = [];
 

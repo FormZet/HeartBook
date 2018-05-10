@@ -24,15 +24,28 @@ body {
 }
 
 img {
-	max-width: 100%;
+	max-width: 150%;
 }
-.imgcard{
-	width: 17%;
+.cards img{
+	width: 320px;
+	height: 385px;
+}
+.s-heroes{
+	padding-top: 110px;
 }
 h1{
 	text-align: center;
 	font-size: 40px;
 	font-weight: 600;
-	font-family: link;
+	font-family: head;
 	color: white;
+}
+.cards{
+	width: 1900px;
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+.containers{
+
 }

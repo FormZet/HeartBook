@@ -2,6 +2,10 @@
 	font-family: link;
 	src: url(../fonts/Stylish.ttf);
 }
+@font-face{
+	font-family: skan;
+	src: url(../fonts/skan.ttf);
+}
 body, h1, h2, h3, a, p{
 	margin: 0;
 	font-family: "Trebuchet MS";
@@ -41,7 +45,9 @@ header a{
 	margin-left: 220px;
 }
 .links{
+		margin-top: 200px;
 	display: flex;
+
 }
 .title{
 position: absolute;
@@ -72,8 +78,36 @@ top: -35px;
 	font-size: 40px;
 	font-family: link;
 }
-.links img{
-	height: 520px;
-	width: 350px;
-	margin-left: 180px;
+.s-Hello p{
+	font-size: 25px;
+	margin-top: 30px;
 }
+.links img{
+
+	height: 400px;
+	width: 320px;
+	margin-left: 220px;
+}
+.links img:hover{
+	transform: scale(1.15);
+	transition: 0.7s;
+}
+.name{
+	position: absolute;
+	display: flex;
+}
+.name h3:first-child{
+	margin-top: -50px;
+	margin-left: 320px;
+	 }	
+.name h3{
+	font-size: 30px;
+	color: white;
+	font-family: skan;
+	margin-top: -50px;
+	margin-left: 340px;
+}
+.name h3:last-child{
+	margin-top: -50px;
+	margin-left: 380px;
+	 }	

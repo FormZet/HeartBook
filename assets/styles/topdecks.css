@@ -11,6 +11,8 @@ img {
 	max-width: 100%;
 }
 .decks{
+	top: 200px;
+	position: relative;
 	width: 1300px;
 	margin: 0 auto;
 }
@@ -45,4 +47,11 @@ iframe{
 .thirdvid{
 	left: 600px;
 	top: -350px;
+}
+header{
+	z-index: 3;
+}
+.thirdvidp{
+	
+
 }
