@@ -1,0 +1,48 @@
+body, h1, h2, h3, h4, a, p {
+	margin: 0;
+	font-family: "Trebuchet MS";
+}
+
+* {
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+}
+.decks{
+	width: 1300px;
+	margin: 0 auto;
+}
+.decks img{
+	position: relative;
+	height: 150px;
+	width: 140px;
+	margin-right: 200px;
+	margin-left: 250px;
+	margin-bottom: 150px;
+	border: 2px solid yellow;
+	border-radius: 10px;
+
+}
+.decks img:hover{
+	height:250px;
+	width:200px;
+	transform: scale(2.0);
+	transition: 1s;
+}
+.decks h1{
+	font-family: skan;
+	font-size: 35px;
+	text-align: center;
+	padding-bottom: 30px;
+}
+iframe{
+	margin-left: 200px;
+	position: relative;
+	top: -100px;
+}
+.thirdvid{
+	left: 600px;
+	top: -350px;
+}

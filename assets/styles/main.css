@@ -35,10 +35,13 @@ header a{
 	font-weight: 900;
 	text-decoration: none;
 }
-.links{
+.lii{
 	text-align: center;
 	padding-top: 50px;
 	margin-left: 220px;
+}
+.links{
+	display: flex;
 }
 .title{
 position: absolute;
@@ -69,6 +72,8 @@ top: -35px;
 	font-size: 40px;
 	font-family: link;
 }
-.s-Hello p{
-
+.links img{
+	height: 520px;
+	width: 350px;
+	margin-left: 180px;
 }

@@ -9,13 +9,13 @@ $(document).ready(function() {
 		'assets/img/Cards/warrior_card.png',
 		'assets/img/Cards/warrior_card2.png',
 		'assets/img/Cards/warrior_card3.png',
-		'assets/img/Cards/warrior_card.png',
-		'assets/img/Cards/warrior_card.png',
-		'assets/img/Cards/warrior_card.png',
-		'assets/img/Cards/warrior_card.png',
-		'assets/img/Cards/warrior_card.png',
-		'assets/img/Cards/warrior_card.png',
-		'assets/img/Cards/warrior_card.png'
+		'assets/img/Cards/warrior_card4.png',
+		'assets/img/Cards/warrior_card5.png',
+		'assets/img/Cards/warrior_card6.png',
+		'assets/img/Cards/warrior_card7.png',
+		'assets/img/Cards/warrior_card8.png',
+		'assets/img/Cards/warrior_card9.png',
+		'assets/img/Cards/warrior_card10.png'
 ]
 	},
 	{
@@ -163,7 +163,7 @@ $(document).ready(function() {
 		cards.html('');
 
 		for (let i = 0; i < currentCards.length; i++) {
-			cards.append('<div class="cart"><img class="imgcard" src="' + herocards[i].cards + '"></div>');
+			cards.append('<div class="cart"><img class="imgcard" src="' + currentCards[i].cards + '"></div>');
 		}
 		currentCards = [];
 
