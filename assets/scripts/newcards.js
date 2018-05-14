@@ -63,16 +63,16 @@ $(document).ready(function() {
 {
 		class:'Hunter',
 		cards:[
-	'assets/img/Cards/hunter_card.png',
-	'assets/img/Cards/hunter_card2.png',
-	'assets/img/Cards/hunter_card3.png',
-	'assets/img/Cards/hunter_card4.png',
-	'assets/img/Cards/hunter_card5.png',
-	'assets/img/Cards/hunter_card6.png',
-	'assets/img/Cards/hunter_card7.png',
-	'assets/img/Cards/hunter_card8.png',
-	'assets/img/Cards/hunter_card9.png',
-	'assets/img/Cards/hunter_card10.png'
+	'assets/img/Cards/hunder_card.png',
+	'assets/img/Cards/hunder_card2.png',
+	'assets/img/Cards/hunder_card3.png',
+	'assets/img/Cards/hunder_card4.png',
+	'assets/img/Cards/hunder_card5.png',
+	'assets/img/Cards/hunder_card6.png',
+	'assets/img/Cards/hunder_card7.png',
+	'assets/img/Cards/hunder_card8.png',
+	'assets/img/Cards/hunder_card9.png',
+	'assets/img/Cards/hunder_card10.png'
 ]	},
 {
 		class:'Mage',

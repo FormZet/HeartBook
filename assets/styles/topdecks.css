@@ -17,32 +17,15 @@ img {
 	margin: 0 auto;
 }
 .decks img{
-	position: relative;
-	height: 150px;
-	width: 140px;
-	margin-right: 200px;
-	margin-left: 250px;
-	margin-bottom: 150px;
+	margin-top: 100px;
 	border: 2px solid yellow;
 	border-radius: 10px;
-
-}
-.decks img:hover{
-	height:250px;
-	width:200px;
-	transform: scale(2.0);
-	transition: 1s;
 }
 .decks h1{
 	font-family: skan;
 	font-size: 35px;
 	text-align: center;
 	padding-bottom: 30px;
-}
-iframe{
-	margin-left: 200px;
-	position: relative;
-	top: -100px;
 }
 .thirdvid{
 	left: 600px;
@@ -51,7 +34,12 @@ iframe{
 header{
 	z-index: 3;
 }
-.thirdvidp{
-	
+.decks_row{
+	display: flex;
 
+	align-items: center;
+}
+.caro{
+	display: flex;
+	flex-direction: column;
 }
