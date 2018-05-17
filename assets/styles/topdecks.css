@@ -10,16 +10,12 @@ body, h1, h2, h3, h4, a, p {
 img {
 	max-width: 100%;
 }
-.decks{
-	top: 200px;
-	position: relative;
-	width: 1300px;
-	margin: 0 auto;
-}
+
 .decks img{
 	margin-top: 100px;
 	border: 2px solid yellow;
 	border-radius: 10px;
+	height: 200px;	
 }
 .decks h1{
 	font-family: skan;
@@ -27,19 +23,21 @@ img {
 	text-align: center;
 	padding-bottom: 30px;
 }
-.thirdvid{
-	left: 600px;
-	top: -350px;
-}
 header{
 	z-index: 3;
 }
 .decks_row{
 	display: flex;
-
+	justify-content: space-around;
 	align-items: center;
 }
 .caro{
 	display: flex;
 	flex-direction: column;
+}
+iframe{
+	margin-top: 100px;
+}
+.decks{
+	padding-top: 70px;
 }

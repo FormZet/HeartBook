@@ -91,16 +91,16 @@ $(document).ready(function() {
 {
 		class:'Rogue',
 		cards:[
-		'assets/img/Cards/rogues_card.png',
-		'assets/img/Cards/rogues_card2.png',
-		'assets/img/Cards/rogues_card3.png',
-		'assets/img/Cards/rogues_card4.png',
-		'assets/img/Cards/rogues_card5.png',
-		'assets/img/Cards/rogues_card6.png',
-		'assets/img/Cards/rogues_card7.png',
-		'assets/img/Cards/rogues_card8.png',
-		'assets/img/Cards/rogues_card9.png',
-		'assets/img/Cards/rogues_card10.png'
+		'assets/img/Cards/rogue_card.png',
+		'assets/img/Cards/rogue_card2.png',
+		'assets/img/Cards/rogue_card3.png',
+		'assets/img/Cards/rogue_card4.png',
+		'assets/img/Cards/rogue_card5.png',
+		'assets/img/Cards/rogue_card6.png',
+		'assets/img/Cards/rogue_card7.png',
+		'assets/img/Cards/rogue_card8.png',
+		'assets/img/Cards/rogue_card9.png',
+		'assets/img/Cards/rogue_card10.png'
 ]},
 {
 		class:'Druid',
