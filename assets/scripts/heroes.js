@@ -172,7 +172,7 @@ $(document).ready(function() {
 
 
 		for (let i = 0; i < currentHeroes.length; i++) {
-			hero.append('<div class="hero"><img class="heru" src="' + currentHeroes[i].pic + '"><p>' + currentHeroes[i].desc + '</p></div>');
+			hero.append('<div class="hero"><img class="heru animated flip" src="' + currentHeroes[i].pic + '"><p>' + currentHeroes[i].desc + '</p></div>');
 		}
 		currentHeroes = [];
 
