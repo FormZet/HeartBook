@@ -164,7 +164,7 @@ $(document).ready(function() {
 		cards.html('');
 
 		for (let i = 0; i < currentCards.length; i++) {
-			cards.append('<div class="cart"><img class="imgcard" src="' + currentCards[i]  + '"></div>');
+			cards.append('<div class="cart"><img class="animated zoomInRight" src="' + currentCards[i]  + '"></div>');
 		}
 		currentCards = [];
 

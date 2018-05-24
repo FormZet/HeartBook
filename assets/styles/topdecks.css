@@ -39,5 +39,27 @@ iframe{
 	margin-top: 100px;
 }
 .decks{
-	padding-top: 70px;
+	padding-top: 30px;
+}
+.owl-nav button {
+	position: absolute;
+	top: 50%;
+	width: 100px;
+	height: 100px;
+	color: transparent;
+}
+
+.owl-prev {
+	left: 0;
+	background-image: url(../img/left.png);
+	background-size: cover;
+}
+
+.owl-next {
+		background-image: url(../img/right.png);
+		background-size: cover;
+	right: 0;
+}
+.owl-nav button span{
+	color: transparent;
 }

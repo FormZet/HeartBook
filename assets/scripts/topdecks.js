@@ -3,8 +3,9 @@ $(document).ready(function(){
 		items:1,
 		margin:10,
 		loop:true,
-		mouseDrag: true,
-		autoplay: true
+		mouseDrag: false,
+		autoplay: false,
+		nav:true
 		
 	});
 });
