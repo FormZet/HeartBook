@@ -10,21 +10,9 @@ body, h1, h2, h3, h4, a, p {
 img {
 	max-width: 100%;
 }
-
-.decks img{
-	margin-top: 100px;
-	border: 2px solid yellow;
-	border-radius: 10px;
-	height: 200px;	
-}
-.decks h1{
-	font-family: skan;
-	font-size: 35px;
-	text-align: center;
-	padding-bottom: 30px;
-}
 header{
 	z-index: 3;
+	margin-bottom: 300px;
 }
 .decks_row{
 	display: flex;
@@ -34,10 +22,7 @@ header{
 .caro{
 	display: flex;
 	flex-direction: column;
-}
-iframe{
-	margin-top: 100px;
-}
+}	
 .decks{
 	padding-top: 30px;
 }
@@ -62,4 +47,76 @@ iframe{
 }
 .owl-nav button span{
 	color: transparent;
+}
+h2{
+	font-family: skan;
+	padding-bottom:40px;
+	padding-left: 130px;
+	text-align: center;
+	font-size: 100px;
+}
+.guide{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+}
+.guide img{
+	width: 28%;
+}
+.iconka{
+height: 2%;
+width: 7.5%;
+margin-left: 70px;
+}
+.int{
+	margin-top: 150px;
+	display: flex;
+	justify-content: center;
+}
+.coloda{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+iframe{
+	margin-bottom: 170px;
+}
+h3{
+	margin-top: -50px;
+	margin-bottom:40px;
+	font-size: 40px;
+	color: #9855db;
+}
+.coloda p{
+	background-color: white;
+	font-size: 20px;
+}
+.war{
+	color: red;
+}
+.hunt{
+	color: green;
+}
+.pal{
+	color: yellow;
+}
+.rogue{
+	color: grey;
+}
+.lock{
+	color: purple;
+}
+.sham{
+	color: darkblue;
+}
+.mag{
+	color: blue;
+}
+.pri{
+	color: white;
+}
+.dru{
+	color: brown;
 }

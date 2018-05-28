@@ -26,6 +26,7 @@ header{
 	width: 100%;
 	background-color:#a83296;
 	height: 150px;
+	position: relative;
 }
 
 header a{ 
@@ -38,12 +39,6 @@ header a{
 .links{
 	text-align: center;
 	margin-left: 220px;
-}
-.title{
-position: absolute;
-width: 25%;
-left: 10px;
-top: -35px;
 }
 .logo{
 	position: absolute;
@@ -66,7 +61,7 @@ top: -35px;
 	transform: scale(1.2);
 	transition: 0.5s;
 }
-.hero{
+.hero, .hero2{
 	display: flex;
 	justify-content: flex-start;
 		align-items: center;
@@ -95,7 +90,7 @@ top: -35px;
 	border: 10px dashed orange;
 }
 .heru{
-	width: 12%;
+	width: 10%;
 }
 p{
 	color: white;

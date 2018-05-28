@@ -7,7 +7,7 @@ $(document).ready(function(){
 
 	$('.links a').click(function($event){
 		event.preventDefault();
-			$(this).find('img').addClass('animated flipOutY');
+			$(this).find('img').addClass('animated rollOut');
 
 			let link = $(this).attr('href');
 

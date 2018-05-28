@@ -26,15 +26,16 @@ img {
 	max-width: 100%;
 }
 header{
+	display: flex;
 	position: fixed;
 	width: 100%;
-	background-color:#a83296;
+	background-color:black;
 	height: 150px;
 }
 
 header a{ 
 	font-family: link;
-	margin: 90px;
+	margin-right:80px;
 	font-size: 49px;
 	font-weight: 900;
 	text-decoration: none;
@@ -42,6 +43,7 @@ header a{
 .lii{
 	text-align: center;
 	margin-left: 220px;
+	margin-right: 250px;
 }
 .links{
 		margin-top: 200px;
@@ -49,15 +51,12 @@ header a{
 
 }
 .title{
-position: absolute;
-width: 25%;
-left: 10px;
-top: -35px;
+	margin-top: -50px;
+	width: 400px;
+	height: 250px;
 }
 .logo{
-	position: absolute;
-	width: 10%;
-	right: -00px;
+	width: 200px;
 }
 .s-Lore{
 	display:flex;
@@ -109,4 +108,10 @@ top: -35px;
 .name h3:last-child{
 	margin-top: -50px;
 	margin-left: 380px;
-	 }	
+}	
+.lii a{
+	line-height: 150px;
+}
+header p{
+	width: 200px;
+}

@@ -25,33 +25,6 @@ body {
 img {
 	max-width: 100%;
 }
-header{
-	width: 100%;
-	background-color:#a83296;
-	height: 10px;
-}
-
-header a{ 
-	font-family: link;
-	margin: 90px;
-	font-size: 49px;
-	font-weight: 900;
-	text-decoration: none;
-}
-.links{
-	text-align: center;
-}
-.title{
-position: absolute;
-width: 25%;
-left: 10px;
-top: -35px;
-}
-.logo{
-	position: absolute;
-	width: 10%;
-	right: -00px;
-}
 
 .container{
 	width: 1024px;
