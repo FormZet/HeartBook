@@ -15,7 +15,7 @@
 	<div class="caro">
 		<div class="decks_row">
 			<img src="assets/img/Decks/hunter_deck1.jpg">
-			<iframe width="420" height="216" src="https://www.youtube.com/watch?v=e7Q_bTxIKxA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			<iframe width="420" height="216" src="https://www.youtube.com/embed/e7Q_bTxIKxA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 		</div>
 			<div class="decks_row">
 			<img src="assets/img/Decks/hunter_deck2.jpg">

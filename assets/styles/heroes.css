@@ -22,28 +22,19 @@ body {
 img {
 	max-width: 100%;
 }
-header{
-	width: 100%;
-	background-color:#a83296;
-	height: 150px;
-	position: relative;
-}
-
-header a{ 
+header a{
 	font-family: link;
-	margin: 90px;
 	font-size: 49px;
 	font-weight: 900;
 	text-decoration: none;
 }
-.links{
+.linkshero{
 	text-align: center;
-	margin-left: 220px;
+	margin-top: 50px;
+	margin-left: 200px;
 }
 .logo{
-	position: absolute;
-	width: 10%;
-	right: -00px;
+	margin-left: 200px;
 }
 
 .container{
@@ -51,7 +42,7 @@ header a{
 	margin: 0 auto;
 }
 .heroes-list{
-	padding-top: 60px;
+	padding-top: 200px;
 }
 .heroes-list img{
 	margin-left: 20px;
@@ -64,7 +55,7 @@ header a{
 .hero, .hero2{
 	display: flex;
 	justify-content: flex-start;
-		align-items: center;
+	align-items: center;
 }
 .s-lore img{
 	margin: 20px 290px;

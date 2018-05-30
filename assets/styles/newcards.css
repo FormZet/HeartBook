@@ -11,7 +11,7 @@ body, h1, h2, h3, a, p{
 	font-family: "Trebuchet MS";
 }
 
-body {
+body{
 	height: 100vh;
 	position: relative;
 	background-image: url('../img/back1.jpg');
@@ -46,4 +46,14 @@ h1{
 	display: flex;
 	flex-wrap: wrap;
 }
-.imgcard
+
+.heroes-listc{
+	padding-top: 45px;
+}
+.heroes-listc img{
+	margin-left: 20px;
+	width: 8.5%;
+}
+.heroes-listc img.-is-active {
+	border: 10px dashed orange;
+}

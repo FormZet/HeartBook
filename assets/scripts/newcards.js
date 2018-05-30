@@ -145,13 +145,13 @@ $(document).ready(function() {
     ];
 
 	let currentClass = classList[0];
-	$('.heroes-list img:eq(0)').addClass('-is-active');
+	$('.heroes-listc img:eq(0)').addClass('-is-active');
 
 
-	$('.heroes-list img').click(function(){
+	$('.heroes-listc img').click(function(){
 		currentClass = classList[$(this).index()];
 		
-		$('.heroes-list img').removeClass('-is-active');
+		$('.heroes-listc img').removeClass('-is-active');
 		$(this).toggleClass('-is-active');
 
 		herocards.find(function(elem, index, arr) {
