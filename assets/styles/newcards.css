@@ -1,3 +1,4 @@
+
 @font-face{
 	font-family: link;
 	src: url(../fonts/Stylish.ttf);
@@ -46,7 +47,9 @@ h1{
 	display: flex;
 	flex-wrap: wrap;
 }
-
+.containers{
+	display: flex;
+}
 .heroes-listc{
 	padding-top: 45px;
 }
@@ -56,4 +59,7 @@ h1{
 }
 .heroes-listc img.-is-active {
 	border: 10px dashed orange;
+}
+.logoc{
+
 }
